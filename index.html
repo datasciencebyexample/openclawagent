@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenClawAgent.ai - Local-first AI assistant</title>
+    <meta
+      name="description"
+      content="OpenClawAgent.ai explains what OpenClaw is, how to install it, and how to use it safely." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+    <div class="bg-orb orb-3" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-mark">OC</span>
+          <span class="brand-name">OpenClawAgent.ai</span>
+        </div>
+        <nav class="nav">
+          <a href="#what">What it is</a>
+          <a href="#install">Install</a>
+          <a href="#security">Security</a>
+        </nav>
+        <a class="btn btn-ghost" href="#install">Get started</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">The AI that actually does things</p>
+            <h1>OpenClaw, explained clearly - in one page.</h1>
+            <p class="lead">
+              OpenClaw is an open, local-first agent platform that runs on your
+              machine and works from the chat apps you already use. It helps you
+              turn messages into real actions - like inbox clearing or calendar
+              updates - with the right tools and guardrails.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#install">Install & use</a>
+              <a class="btn btn-outline" href="#security">Safe setup</a>
+            </div>
+            <div class="hero-note">
+              Built for people who want an assistant that can manage real tasks
+              while keeping control on their own hardware.
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="stat">
+              <span class="stat-label">Runs locally</span>
+              <span class="stat-value">Your device, your data</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Connects to</span>
+              <span class="stat-value">WhatsApp, Telegram, Discord, Slack, Teams, iMessage</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Extensible</span>
+              <span class="stat-value">Skills, tools, plugins</span>
+            </div>
+            <div class="stat callout">
+              <span class="stat-label">Remember:</span>
+              <span class="stat-value">Access equals power. Configure carefully.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="what" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>What is OpenClaw?</h2>
+            <p>
+              OpenClaw is a local-first personal AI assistant and agent framework.
+              It runs on your laptop, homelab, or VPS and follows you into the chat
+              apps you already use, so your data and workflows stay with you.
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Chat-native control</h3>
+              <p>
+                Run your assistant through WhatsApp, Telegram, Discord, Slack, Teams,
+                or iMessage, then let it handle tasks from the same chat thread.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Local-first, open-source</h3>
+              <p>
+                OpenClaw runs where you choose. Your context, skills, and files stay
+                with you unless you explicitly connect external services.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Skills & tools</h3>
+              <p>
+                Extend what it can do with skills, plugins, and tool access. Keep the
+                assistant focused by enabling only what you actually need.
+              </p>
+            </article>
+          </div>
+          <div class="note">
+            Examples: clear an inbox, send emails, update a calendar, or check in for flights -
+            all from your chat app.
+          </div>
+        </div>
+      </section>
+
+      <section id="install" class="section section-alt">
+        <div class="container">
+          <div class="section-title">
+            <h2>Install & use OpenClaw</h2>
+            <p>
+              The quickest path is the guided onboarding wizard. You install the CLI,
+              run the wizard, then pair your first chat channel.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div>
+                <h3>Prep your environment</h3>
+                <p>Install Node.js 22+ and open a terminal.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div>
+                <h3>Run the installer</h3>
+                <p>
+                  Recommended installer (macOS/Linux/WSL):
+                  <span class="code">curl -fsSL https://openclaw.bot/install.sh | bash</span>
+                </p>
+                <p>
+                  Or use PowerShell on Windows:
+                  <span class="code">iwr -useb https://openclaw.ai/install.ps1 | iex</span>
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div>
+                <h3>Launch the wizard</h3>
+                <p>
+                  <span class="code">openclaw onboard --install-daemon</span>
+                </p>
+                <p>
+                  Choose your gateway mode, connect your AI model, and bind your chat channel.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div>
+                <h3>Verify & pair</h3>
+                <p>
+                  Check status: <span class="code">openclaw status</span>
+                </p>
+                <p>
+                  Open the local dashboard: <span class="code">http://127.0.0.1:18789/</span>
+                </p>
+                <p>
+                  Pair your first channel: <span class="code">openclaw channels login --channel whatsapp</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="note">
+            Tip: keep the gateway local-only unless you set up a secure tunnel.
+          </div>
+        </div>
+      </section>
+
+      <section id="security" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Security & safe use</h2>
+            <p>
+              OpenClaw can access your system and tools. Treat it like an admin user.
+              These guardrails dramatically lower risk.
+            </p>
+          </div>
+          <div class="security-grid">
+            <article class="card">
+              <h3>Lock down network exposure</h3>
+              <ul>
+                <li>Do not expose Gateway port 18789 directly to the public internet.</li>
+                <li>Keep the Gateway loopback-only unless you truly need a bind.</li>
+                <li>Prefer Tailscale Serve or SSH tunnels over LAN/public binds.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Require auth & allowlists</h3>
+              <ul>
+                <li>Non-loopback binds must use a token or password.</li>
+                <li>Allowlist who can message the bot (per-channel allowFrom).</li>
+                <li>Require @mentions in group chats to reduce accidental triggers.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Operate intentionally</h3>
+              <ul>
+                <li>Keep your gateway token private and unique.</li>
+                <li>Review installed extensions and remove anything you don't trust.</li>
+                <li>Use a separate bot number for messaging channels when possible.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="warning">
+            If you connect OpenClaw to email, files, or system commands, assume it can
+            reach anything those accounts can reach. Configure intentionally.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>OpenClawAgent.ai</strong>
+          <p>Independent community site focused on safe, practical setup guidance.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://openclaw.ai/" target="_blank" rel="noreferrer">Official OpenClaw</a>
+          <a href="https://docs.openclaw.ai/" target="_blank" rel="noreferrer">Documentation</a>
+          <a href="https://docs.openclaw.ai/gateway/security" target="_blank" rel="noreferrer">Security Guide</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
