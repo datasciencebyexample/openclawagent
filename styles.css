@@ -108,7 +108,20 @@ a {
 }
 
 .brand-mark {
-  font-size: 24px;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(27, 26, 23, 0.12);
+  box-shadow: 0 12px 22px rgba(31, 122, 140, 0.15);
+}
+
+.brand-mark svg {
+  width: 32px;
+  height: 32px;
 }
 
 .nav {
