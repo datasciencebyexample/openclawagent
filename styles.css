@@ -483,3 +483,11 @@ a {
   background: transparent;
   padding: 0;
 }
+
+.has-post .section-alt {
+  padding-top: 40px;
+}
+
+.has-post #notes-list {
+  opacity: 0.6;
+}

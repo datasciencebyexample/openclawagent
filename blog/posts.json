@@ -1,5 +1,12 @@
 [
   {
+    "slug": "discord-bots-openclaw",
+    "title": "Discord Bots in OpenClaw: A Friendly Beginner's Guide",
+    "date": "February 11, 2026",
+    "summary": "A beginner-friendly walkthrough of Discord basics, why bots are easy there, and how to wire a Discord bot into OpenClaw.",
+    "file": "2026-02-11-discord-bots-openclaw.md"
+  },
+  {
     "slug": "whatsapp-vs-telegram-agents",
     "title": "WhatsApp vs Telegram: Understanding Multi-Agent Architecture in OpenClaw",
     "date": "February 8, 2026",

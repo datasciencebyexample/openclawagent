@@ -1,5 +1,6 @@
 const listEl = document.getElementById('notes-list');
 const detailEl = document.getElementById('note-detail');
+const bodyEl = document.body;
 const params = new URLSearchParams(window.location.search);
 const selectedSlug = params.get('post');
 
@@ -35,9 +36,12 @@ const renderList = (posts) => {
 
 const renderDetail = async (posts) => {
   if (!selectedSlug) {
+    bodyEl.classList.remove('has-post');
     detailEl.innerHTML = '<p class="note">Select a note above to read it here.</p>';
     return;
   }
+
+  bodyEl.classList.add('has-post');
 
   const post = posts.find((entry) => entry.slug === selectedSlug);
   if (!post) {
