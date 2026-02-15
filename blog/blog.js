@@ -1,8 +1,48 @@
 const listEl = document.getElementById('notes-list');
 const detailEl = document.getElementById('note-detail');
 const bodyEl = document.body;
-const params = new URLSearchParams(window.location.search);
-const selectedSlug = params.get('post');
+const canonicalEl = document.getElementById('canonical-url');
+const ogUrlEl = document.getElementById('og-url');
+
+const canonicalBase = 'https://www.openclawagent.ai';
+
+const getSelectedSlug = () => new URLSearchParams(window.location.search).get('post');
+
+const setCanonical = (slug) => {
+  if (!canonicalEl && !ogUrlEl) return;
+  const url = slug ? `${canonicalBase}/blog/?post=${encodeURIComponent(slug)}` : `${canonicalBase}/blog/`;
+  if (canonicalEl) canonicalEl.href = url;
+  if (ogUrlEl) ogUrlEl.content = url;
+};
+
+const parsePostDate = (post) => {
+  // Prefer stable YYYY-MM-DD prefix from filename if present.
+  const fileMatch = /^(\d{4})-(\d{2})-(\d{2})/.exec(post.file || '');
+  if (fileMatch) {
+    const d = new Date(`${fileMatch[1]}-${fileMatch[2]}-${fileMatch[3]}T00:00:00Z`);
+    if (!Number.isNaN(d.getTime())) return d.getTime();
+  }
+
+  const d = new Date(post.date || '');
+  if (!Number.isNaN(d.getTime())) return d.getTime();
+
+  return 0;
+};
+
+const sortPostsNewestFirst = (posts) =>
+  [...posts].sort((a, b) => parsePostDate(b) - parsePostDate(a));
+
+const ensureSelectedPost = (posts) => {
+  const currentSlug = getSelectedSlug();
+  if (currentSlug) return currentSlug;
+  if (!posts.length) return null;
+
+  const latestSlug = posts[0].slug;
+  const url = new URL(window.location.href);
+  url.searchParams.set('post', latestSlug);
+  window.history.replaceState({}, '', url.toString());
+  return latestSlug;
+};
 
 const renderMarkdown = (markdown) => {
   marked.setOptions({
@@ -35,19 +75,22 @@ const renderList = (posts) => {
 };
 
 const renderDetail = async (posts) => {
-  if (!selectedSlug) {
+  const selectedSlug = getSelectedSlug();
+
+  if (!selectedSlug) return;
+
+  const post = posts.find((entry) => entry.slug === selectedSlug);
+  if (!post) {
     bodyEl.classList.remove('has-post');
-    detailEl.innerHTML = '<p class="note">Select a note above to read it here.</p>';
+    detailEl.innerHTML = '<p class="note">That note was not found. Check the URL.</p>';
+    document.title = 'OpenClawAgent.ai - Field Notes';
+    setCanonical(null);
     return;
   }
 
   bodyEl.classList.add('has-post');
-
-  const post = posts.find((entry) => entry.slug === selectedSlug);
-  if (!post) {
-    detailEl.innerHTML = '<p class="note">That note was not found. Check the URL.</p>';
-    return;
-  }
+  setCanonical(selectedSlug);
+  document.title = `OpenClawAgent.ai - ${post.title}`;
 
   try {
     const response = await fetch(`/blog/posts/${post.file}`);
@@ -74,8 +117,9 @@ const init = async () => {
     if (!response.ok) {
       throw new Error('Missing posts.json');
     }
-    const posts = await response.json();
+    const posts = sortPostsNewestFirst(await response.json());
     renderList(posts);
+    ensureSelectedPost(posts);
     await renderDetail(posts);
   } catch (error) {
     listEl.innerHTML = '<p class="note">Add a posts.json file to list your notes.</p>';
