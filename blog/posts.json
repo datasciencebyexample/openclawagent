@@ -1,5 +1,12 @@
 [
   {
+    "slug": "custom-skills-openclaw",
+    "title": "Custom Skills in OpenClaw: Teach Your Agent New Tricks",
+    "date": "February 18, 2026",
+    "summary": "How to create, structure, and load custom skills so your OpenClaw agent can follow your exact workflows.",
+    "file": "2026-02-18-custom-skills-openclaw.md"
+  },
+  {
     "slug": "discord-bots-openclaw",
     "title": "Discord Bots in OpenClaw: A Friendly Beginner's Guide",
     "date": "February 11, 2026",
