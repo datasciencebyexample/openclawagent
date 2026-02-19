@@ -1,5 +1,12 @@
 [
   {
+    "slug": "agent-memory-persistence",
+    "title": "Agent Memory in OpenClaw: How Your AI Remembers You",
+    "date": "February 19, 2026",
+    "summary": "How OpenClaw's file-based memory system gives your agent persistent context across sessions — daily notes, long-term memory, and semantic search.",
+    "file": "2026-02-19-agent-memory-persistence.md"
+  },
+  {
     "slug": "browser-control-openclaw",
     "title": "Browser Control in OpenClaw: Give Your Agent Eyes on the Web",
     "date": "February 19, 2026",
