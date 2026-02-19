@@ -1,5 +1,12 @@
 [
   {
+    "slug": "cron-jobs-scheduled-agents",
+    "title": "Cron Jobs and Scheduled Agents in OpenClaw",
+    "date": "February 18, 2026",
+    "summary": "How to use OpenClaw's built-in cron system for reminders, periodic checks, and autonomous background tasks.",
+    "file": "2026-02-18-cron-jobs-scheduled-agents.md"
+  },
+  {
     "slug": "custom-skills-openclaw",
     "title": "Custom Skills in OpenClaw: Teach Your Agent New Tricks",
     "date": "February 18, 2026",
