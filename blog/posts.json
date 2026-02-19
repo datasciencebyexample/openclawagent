@@ -1,5 +1,12 @@
 [
   {
+    "slug": "browser-control-openclaw",
+    "title": "Browser Control in OpenClaw: Give Your Agent Eyes on the Web",
+    "date": "February 19, 2026",
+    "summary": "How to use OpenClaw's built-in browser control to let your agent open pages, click, type, screenshot, and automate web tasks.",
+    "file": "2026-02-19-browser-control-openclaw.md"
+  },
+  {
     "slug": "cron-jobs-scheduled-agents",
     "title": "Cron Jobs and Scheduled Agents in OpenClaw",
     "date": "February 18, 2026",

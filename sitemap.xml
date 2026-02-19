@@ -7,6 +7,9 @@
     <loc>https://www.openclawagent.ai/blog/</loc>
   </url>
   <url>
+    <loc>https://www.openclawagent.ai/blog/?post=browser-control-openclaw</loc>
+  </url>
+  <url>
     <loc>https://www.openclawagent.ai/blog/?post=cron-jobs-scheduled-agents</loc>
   </url>
   <url>
