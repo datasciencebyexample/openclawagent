@@ -1,5 +1,12 @@
 [
   {
+    "slug": "sub-agents-background-tasks",
+    "title": "Sub-Agents in OpenClaw: Background Tasks That Think for Themselves",
+    "date": "February 20, 2026",
+    "summary": "How to use OpenClaw's sub-agent system to spawn parallel background tasks, delegate complex work, and orchestrate multi-step workflows.",
+    "file": "2026-02-20-sub-agents-background-tasks.md"
+  },
+  {
     "slug": "agent-memory-persistence",
     "title": "Agent Memory in OpenClaw: How Your AI Remembers You",
     "date": "February 19, 2026",
