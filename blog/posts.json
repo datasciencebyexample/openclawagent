@@ -1,5 +1,12 @@
 [
   {
+    "slug": "node-pairing-device-control",
+    "title": "Node Pairing in OpenClaw: Control Your Devices From Anywhere",
+    "date": "February 21, 2026",
+    "summary": "How OpenClaw's node pairing system lets your agent run commands, snap photos, grab screenshots, and send notifications across all your devices.",
+    "file": "2026-02-21-node-pairing-device-control.md"
+  },
+  {
     "slug": "sub-agents-background-tasks",
     "title": "Sub-Agents in OpenClaw: Background Tasks That Think for Themselves",
     "date": "February 20, 2026",
