@@ -1,5 +1,12 @@
 [
   {
+    "slug": "heartbeats-proactive-agents",
+    "title": "Heartbeats in OpenClaw: Building a Proactive Agent That Checks In",
+    "date": "February 22, 2026",
+    "summary": "How OpenClaw's heartbeat system lets your agent wake up periodically, check on things that matter, and stay quiet when nothing needs attention.",
+    "file": "2026-02-22-heartbeats-proactive-agents.md"
+  },
+  {
     "slug": "node-pairing-device-control",
     "title": "Node Pairing in OpenClaw: Control Your Devices From Anywhere",
     "date": "February 21, 2026",
