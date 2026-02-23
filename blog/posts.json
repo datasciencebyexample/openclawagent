@@ -1,5 +1,12 @@
 [
   {
+    "slug": "voice-tts-agent",
+    "title": "Give Your Agent a Voice: Text-to-Speech in OpenClaw",
+    "date": "February 23, 2026",
+    "summary": "How OpenClaw's built-in TTS tool lets your agent speak out loud — for storytelling, morning briefings, accessibility, and more.",
+    "file": "2026-02-23-voice-tts-agent.md"
+  },
+  {
     "slug": "heartbeats-proactive-agents",
     "title": "Heartbeats in OpenClaw: Building a Proactive Agent That Checks In",
     "date": "February 22, 2026",
