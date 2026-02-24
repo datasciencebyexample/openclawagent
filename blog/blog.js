@@ -97,7 +97,9 @@ const renderDetail = async (posts) => {
     if (!response.ok) {
       throw new Error('Post file missing');
     }
-    const markdown = await response.text();
+    let markdown = await response.text();
+    // Strip leading H1 title to avoid duplicating the header already shown above.
+    markdown = markdown.replace(/^\s*#\s+.+\n+/, '');
     detailEl.innerHTML = `
       <div class="markdown-header">
         <p class="eyebrow">${post.date}</p>
