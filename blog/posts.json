@@ -1,5 +1,12 @@
 [
   {
+    "slug": "multi-model-workflows",
+    "title": "Multi-Model Workflows in OpenClaw: Picking the Right Brain for Every Task",
+    "date": "February 24, 2026",
+    "summary": "How to use different models across sessions, sub-agents, and cron jobs to optimize for speed, cost, and quality.",
+    "file": "2026-02-24-multi-model-workflows.md"
+  },
+  {
     "slug": "voice-tts-agent",
     "title": "Give Your Agent a Voice: Text-to-Speech in OpenClaw",
     "date": "February 23, 2026",
