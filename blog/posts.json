@@ -1,5 +1,12 @@
 [
   {
+    "slug": "agent-safety-profiles",
+    "title": "Agent Safety Profiles in OpenClaw: Fast Automation Without Losing Control",
+    "date": "February 27, 2026",
+    "summary": "How to tune sandbox and approval settings into practical safety profiles so your OpenClaw automations stay fast without becoming risky.",
+    "file": "2026-02-27-agent-safety-profiles.md"
+  },
+  {
     "slug": "multi-model-workflows",
     "title": "Multi-Model Workflows in OpenClaw: Picking the Right Brain for Every Task",
     "date": "February 24, 2026",
