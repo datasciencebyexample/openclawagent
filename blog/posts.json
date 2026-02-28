@@ -1,5 +1,12 @@
 [
   {
+    "slug": "agent-logs-audit-trails",
+    "title": "Agent Logs and Audit Trails in OpenClaw: Know What Happened and Why",
+    "date": "February 28, 2026",
+    "summary": "A practical logging and audit trail pattern so your OpenClaw automations are debuggable, accountable, and easy to trust.",
+    "file": "2026-02-28-agent-logs-audit-trails.md"
+  },
+  {
     "slug": "agent-safety-profiles",
     "title": "Agent Safety Profiles in OpenClaw: Fast Automation Without Losing Control",
     "date": "February 27, 2026",
