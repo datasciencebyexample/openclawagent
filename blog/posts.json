@@ -1,5 +1,12 @@
 [
   {
+    "slug": "openclaw-mini-local-codex-discord",
+    "title": "Why I Recommend openclaw-mini for a Clean, Local Discord Agent",
+    "date": "March 1, 2026",
+    "summary": "A practical walkthrough of how openclaw-mini works: Python + Discord + local Codex CLI sessions, with SOUL and skills driving behavior.",
+    "file": "2026-03-01-openclaw-mini-local-codex-discord.md"
+  },
+  {
     "slug": "agent-logs-audit-trails",
     "title": "Agent Logs and Audit Trails in OpenClaw: Know What Happened and Why",
     "date": "February 28, 2026",
