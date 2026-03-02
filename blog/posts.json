@@ -1,5 +1,12 @@
 [
   {
+    "slug": "approval-queues-human-in-loop",
+    "title": "Human-in-the-Loop Approval Queues in OpenClaw: Fast Agents, Safe Outcomes",
+    "date": "March 2, 2026",
+    "summary": "How to pause high-impact agent actions for human review without slowing everything down.",
+    "file": "2026-03-02-approval-queues-human-in-loop.md"
+  },
+  {
     "slug": "openclaw-mini-local-codex-discord",
     "title": "Why I Recommend openclaw-mini for a Clean, Local Discord Agent",
     "date": "March 1, 2026",
@@ -31,7 +38,7 @@
     "slug": "voice-tts-agent",
     "title": "Give Your Agent a Voice: Text-to-Speech in OpenClaw",
     "date": "February 23, 2026",
-    "summary": "How OpenClaw's built-in TTS tool lets your agent speak out loud — for storytelling, morning briefings, accessibility, and more.",
+    "summary": "How OpenClaw's built-in TTS tool lets your agent speak out loud \u2014 for storytelling, morning briefings, accessibility, and more.",
     "file": "2026-02-23-voice-tts-agent.md"
   },
   {
@@ -59,7 +66,7 @@
     "slug": "agent-memory-persistence",
     "title": "Agent Memory in OpenClaw: How Your AI Remembers You",
     "date": "February 19, 2026",
-    "summary": "How OpenClaw's file-based memory system gives your agent persistent context across sessions — daily notes, long-term memory, and semantic search.",
+    "summary": "How OpenClaw's file-based memory system gives your agent persistent context across sessions \u2014 daily notes, long-term memory, and semantic search.",
     "file": "2026-02-19-agent-memory-persistence.md"
   },
   {
