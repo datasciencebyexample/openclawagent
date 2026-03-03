@@ -3,7 +3,7 @@
     "slug": "context-packets-openclaw",
     "title": "Context Packets in OpenClaw: Give Agents the Right Info at the Right Time",
     "date": "March 3, 2026",
-    "summary": "How to keep agent runs focused by attaching small, structured context bundles instead of giant prompts.",
+    "summary": "How to keep agent runs focused using small, structured context packets instead of giant prompts.",
     "file": "2026-03-03-context-packets-openclaw.md"
   },
   {
