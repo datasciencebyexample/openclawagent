@@ -1,5 +1,12 @@
 [
   {
+    "slug": "idempotent-actions-openclaw",
+    "title": "Idempotent Actions in OpenClaw: Make Retries Safe and Predictable",
+    "date": "March 5, 2026",
+    "summary": "How to design agent actions so retries are safe, predictable, and free of duplicates.",
+    "file": "2026-03-05-idempotent-actions-openclaw.md"
+  },
+  {
     "slug": "dry-run-simulations-openclaw",
     "title": "Dry-Run Simulations in OpenClaw: Preview Agent Actions Before They Execute",
     "date": "March 4, 2026",
