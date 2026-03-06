@@ -1,5 +1,12 @@
 [
   {
+    "slug": "rate-limits-backoff-openclaw",
+    "title": "Rate Limits and Backoff in OpenClaw: Keep Agents Fast Without Getting Throttled",
+    "date": "March 6, 2026",
+    "summary": "How to handle 429s, timeouts, and bursty APIs with backoff, concurrency caps, and clear user updates.",
+    "file": "2026-03-06-rate-limits-backoff-openclaw.md"
+  },
+  {
     "slug": "idempotent-actions-openclaw",
     "title": "Idempotent Actions in OpenClaw: Make Retries Safe and Predictable",
     "date": "March 5, 2026",

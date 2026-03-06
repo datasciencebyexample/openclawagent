@@ -7,6 +7,9 @@
     <loc>https://www.openclawagent.ai/blog/</loc>
   </url>
   <url>
+    <loc>https://www.openclawagent.ai/blog/?post=rate-limits-backoff-openclaw</loc>
+  </url>
+  <url>
     <loc>https://www.openclawagent.ai/blog/?post=idempotent-actions-openclaw</loc>
   </url>
   <url>
