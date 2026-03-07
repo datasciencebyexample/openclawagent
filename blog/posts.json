@@ -1,5 +1,12 @@
 [
   {
+    "slug": "confidence-gates-clarification-openclaw",
+    "title": "Confidence Gates in OpenClaw: When Agents Should Ask Before Acting",
+    "date": "March 7, 2026",
+    "summary": "How to add confidence gates so agents ask clear questions before risky actions.",
+    "file": "2026-03-07-confidence-gates-clarification-openclaw.md"
+  },
+  {
     "slug": "rate-limits-backoff-openclaw",
     "title": "Rate Limits and Backoff in OpenClaw: Keep Agents Fast Without Getting Throttled",
     "date": "March 6, 2026",
