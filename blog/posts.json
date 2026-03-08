@@ -1,5 +1,12 @@
 [
   {
+    "slug": "secure-dm-session-isolation-openclaw",
+    "title": "Secure DM Session Isolation in OpenClaw: Prevent Cross-User Context Leaks",
+    "date": "March 8, 2026",
+    "summary": "A practical hardening guide for DM session scoping, identity linking, and sender controls to prevent cross-user context leaks.",
+    "file": "2026-03-08-secure-dm-session-isolation-openclaw.md"
+  },
+  {
     "slug": "confidence-gates-clarification-openclaw",
     "title": "Confidence Gates in OpenClaw: When Agents Should Ask Before Acting",
     "date": "March 7, 2026",
