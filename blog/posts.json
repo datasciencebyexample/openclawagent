@@ -1,5 +1,12 @@
 [
   {
+    "slug": "secretrefs-rotation-openclaw",
+    "title": "SecretRefs in OpenClaw: Rotate Credentials Without Downtime",
+    "date": "March 10, 2026",
+    "summary": "How to implement SecretRefs, choose sources, and rotate credentials safely using atomic reloads and degraded-state monitoring.",
+    "file": "2026-03-10-secretrefs-rotation-openclaw.md"
+  },
+  {
     "slug": "tools-profile-upgrade-safety-openclaw",
     "title": "OpenClaw `tools.profile` Upgrades: Prevent Silent Capability Regressions",
     "date": "March 9, 2026",
