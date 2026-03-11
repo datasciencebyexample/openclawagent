@@ -1,5 +1,12 @@
 [
   {
+    "slug": "pre-action-guardrails-openclaw",
+    "title": "Pre-Action Guardrails in OpenClaw: Block Risky Tool Calls Before They Run",
+    "date": "March 11, 2026",
+    "summary": "How to add a policy layer that intercepts tool calls, start in audit mode, and roll out enforcement without breaking legitimate workflows.",
+    "file": "2026-03-11-pre-action-guardrails-openclaw.md"
+  },
+  {
     "slug": "secretrefs-rotation-openclaw",
     "title": "SecretRefs in OpenClaw: Rotate Credentials Without Downtime",
     "date": "March 10, 2026",
