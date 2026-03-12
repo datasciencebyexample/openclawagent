@@ -1,5 +1,12 @@
 [
   {
+    "slug": "openclaw-backup-verify-drills",
+    "title": "OpenClaw Backups You Can Trust: `backup create`, `verify`, and Restore Drills",
+    "date": "March 12, 2026",
+    "summary": "A practical backup workflow using OpenClaw\u2019s built-in create/verify commands, with restore drills and policy tradeoffs so recovery stays boring.",
+    "file": "2026-03-12-openclaw-backup-verify-drills.md"
+  },
+  {
     "slug": "pre-action-guardrails-openclaw",
     "title": "Pre-Action Guardrails in OpenClaw: Block Risky Tool Calls Before They Run",
     "date": "March 11, 2026",
