@@ -1,5 +1,12 @@
 [
   {
+    "slug": "gateway-exposure-hardening-openclaw",
+    "title": "OpenClaw Gateway Exposure Hardening: Bind Modes, Auth, and Safe Remote Access",
+    "date": "March 13, 2026",
+    "summary": "A practical guide to securing the OpenClaw Gateway with bind modes, token auth, and safe remote access patterns, including tradeoffs and a rollout checklist.",
+    "file": "2026-03-13-gateway-exposure-hardening-openclaw.md"
+  },
+  {
     "slug": "openclaw-backup-verify-drills",
     "title": "OpenClaw Backups You Can Trust: `backup create`, `verify`, and Restore Drills",
     "date": "March 12, 2026",
