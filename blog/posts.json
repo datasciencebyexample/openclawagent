@@ -1,5 +1,12 @@
 [
   {
+    "slug": "plugin-lifecycle-safe-rollouts-openclaw",
+    "title": "OpenClaw Plugin Lifecycle: Safe Rollouts, Version Pinning, and Fast Rollbacks",
+    "date": "March 14, 2026",
+    "summary": "A practical playbook for managing OpenClaw plugin upgrades safely with exact version pinning, canary checks, and fast rollback paths.",
+    "file": "2026-03-14-plugin-lifecycle-safe-rollouts-openclaw.md"
+  },
+  {
     "slug": "gateway-exposure-hardening-openclaw",
     "title": "OpenClaw Gateway Exposure Hardening: Bind Modes, Auth, and Safe Remote Access",
     "date": "March 13, 2026",
