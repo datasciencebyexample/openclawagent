@@ -1,5 +1,12 @@
 [
   {
+    "slug": "gateway-config-patch-apply-openclaw",
+    "title": "OpenClaw Gateway Config Changes: Safe `config.patch` and `config.apply` Rollouts",
+    "date": "March 15, 2026",
+    "summary": "A practical rollout guide for Gateway config changes using patch/apply, with tradeoffs, verification steps, and rollback safety.",
+    "file": "2026-03-15-gateway-config-patch-apply-openclaw.md"
+  },
+  {
     "slug": "plugin-lifecycle-safe-rollouts-openclaw",
     "title": "OpenClaw Plugin Lifecycle: Safe Rollouts, Version Pinning, and Fast Rollbacks",
     "date": "March 14, 2026",
