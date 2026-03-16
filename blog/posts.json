@@ -1,5 +1,12 @@
 [
   {
+    "slug": "tools-invoke-http-api-openclaw",
+    "title": "OpenClaw Tools Invoke HTTP API: Safer External Automations Without Full Agents",
+    "date": "March 16, 2026",
+    "summary": "How to call OpenClaw tools directly over HTTP with strong auth, policy guardrails, and safe retry patterns for external systems.",
+    "file": "2026-03-16-tools-invoke-http-api-openclaw.md"
+  },
+  {
     "slug": "gateway-config-patch-apply-openclaw",
     "title": "OpenClaw Gateway Config Changes: Safe `config.patch` and `config.apply` Rollouts",
     "date": "March 15, 2026",
