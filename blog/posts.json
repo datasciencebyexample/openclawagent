@@ -1,5 +1,12 @@
 [
   {
+    "slug": "webhooks-session-policy-openclaw",
+    "title": "OpenClaw Webhooks: Secure Event Ingress With Session Key Policy",
+    "date": "March 17, 2026",
+    "summary": "A practical guide to OpenClaw webhooks with safe session key policies, mapping strategies, and rollout checks to keep external event ingress reliable.",
+    "file": "2026-03-17-webhooks-session-policy-openclaw.md"
+  },
+  {
     "slug": "tools-invoke-http-api-openclaw",
     "title": "OpenClaw Tools Invoke HTTP API: Safer External Automations Without Full Agents",
     "date": "March 16, 2026",
