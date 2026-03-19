@@ -1,5 +1,12 @@
 [
   {
+    "slug": "config-reload-modes-openclaw",
+    "title": "OpenClaw Reload Modes: Hot Reload vs Restart for Safe Config Changes",
+    "date": "March 19, 2026",
+    "summary": "How to choose reload modes, classify config changes, and verify that hot reloads and restarts apply safely without surprise downtime.",
+    "file": "2026-03-19-config-reload-modes-openclaw.md"
+  },
+  {
     "slug": "circuit-breakers-openclaw",
     "title": "Circuit Breakers in OpenClaw: Stop Cascading Failures Before They Start",
     "date": "March 18, 2026",
@@ -45,7 +52,7 @@
     "slug": "openclaw-backup-verify-drills",
     "title": "OpenClaw Backups You Can Trust: `backup create`, `verify`, and Restore Drills",
     "date": "March 12, 2026",
-    "summary": "A practical backup workflow using OpenClaw’s built-in create/verify commands, with restore drills and policy tradeoffs so recovery stays boring.",
+    "summary": "A practical backup workflow using OpenClaw\u2019s built-in create/verify commands, with restore drills and policy tradeoffs so recovery stays boring.",
     "file": "2026-03-12-openclaw-backup-verify-drills.md"
   },
   {
@@ -150,7 +157,7 @@
     "slug": "voice-tts-agent",
     "title": "Give Your Agent a Voice: Text-to-Speech in OpenClaw",
     "date": "February 23, 2026",
-    "summary": "How OpenClaw's built-in TTS tool lets your agent speak out loud — for storytelling, morning briefings, accessibility, and more.",
+    "summary": "How OpenClaw's built-in TTS tool lets your agent speak out loud \u2014 for storytelling, morning briefings, accessibility, and more.",
     "file": "2026-02-23-voice-tts-agent.md"
   },
   {
@@ -178,7 +185,7 @@
     "slug": "agent-memory-persistence",
     "title": "Agent Memory in OpenClaw: How Your AI Remembers You",
     "date": "February 19, 2026",
-    "summary": "How OpenClaw's file-based memory system gives your agent persistent context across sessions — daily notes, long-term memory, and semantic search.",
+    "summary": "How OpenClaw's file-based memory system gives your agent persistent context across sessions \u2014 daily notes, long-term memory, and semantic search.",
     "file": "2026-02-19-agent-memory-persistence.md"
   },
   {
