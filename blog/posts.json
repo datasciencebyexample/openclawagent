@@ -1,5 +1,12 @@
 [
   {
+    "slug": "session-store-hygiene-openclaw",
+    "title": "Session Store Hygiene in OpenClaw: Keep Context Accurate Without Bloated History",
+    "date": "March 20, 2026",
+    "summary": "How to keep OpenClaw session state clean and trustworthy with expiration, compaction, identity links, and safe cleanup steps.",
+    "file": "2026-03-20-session-store-hygiene-openclaw.md"
+  },
+  {
     "slug": "config-reload-modes-openclaw",
     "title": "OpenClaw Reload Modes: Hot Reload vs Restart for Safe Config Changes",
     "date": "March 19, 2026",
