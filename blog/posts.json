@@ -1,5 +1,12 @@
 [
   {
+    "slug": "loop-detection-guardrails-openclaw",
+    "title": "OpenClaw Tool-Loop Detection: Guardrails Against Runaway Tool Calls",
+    "date": "March 21, 2026",
+    "summary": "How to enable OpenClaw's loop detector, tune thresholds, and prevent runaway tool-call cycles without blocking legitimate retries.",
+    "file": "2026-03-21-loop-detection-guardrails-openclaw.md"
+  },
+  {
     "slug": "session-store-hygiene-openclaw",
     "title": "Session Store Hygiene in OpenClaw: Keep Context Accurate Without Bloated History",
     "date": "March 20, 2026",
