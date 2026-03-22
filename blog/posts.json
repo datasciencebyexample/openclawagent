@@ -1,5 +1,12 @@
 [
   {
+    "slug": "config-doctor-validation-openclaw",
+    "title": "OpenClaw Config Doctor: Validate Changes Before They Take Down the Gateway",
+    "date": "March 22, 2026",
+    "summary": "A practical workflow for safe OpenClaw config edits using the CLI and `openclaw doctor`, with tradeoffs, a failure mode, and a verification checklist.",
+    "file": "2026-03-22-config-doctor-validation-openclaw.md"
+  },
+  {
     "slug": "loop-detection-guardrails-openclaw",
     "title": "OpenClaw Tool-Loop Detection: Guardrails Against Runaway Tool Calls",
     "date": "March 21, 2026",
