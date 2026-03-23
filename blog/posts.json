@@ -1,5 +1,12 @@
 [
   {
+    "slug": "event-hooks-safety-openclaw",
+    "title": "OpenClaw Event Hooks: External Observability Without Slowing Agents",
+    "date": "March 23, 2026",
+    "summary": "A practical guide to building safe OpenClaw event hooks with stable schemas, fast delivery, idempotent consumers, and clear failure mitigations.",
+    "file": "2026-03-23-event-hooks-safety-openclaw.md"
+  },
+  {
     "slug": "config-doctor-validation-openclaw",
     "title": "OpenClaw Config Doctor: Validate Changes Before They Take Down the Gateway",
     "date": "March 22, 2026",
