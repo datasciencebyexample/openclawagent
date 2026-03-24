@@ -1,5 +1,12 @@
 [
   {
+    "slug": "multi-agent-routing-bindings-openclaw",
+    "title": "OpenClaw Multi-Agent Routing: Bindings That Keep Work and Personal Worlds Apart",
+    "date": "March 24, 2026",
+    "summary": "A practical guide to routing multi-agent traffic with bindings, account scoping, and rollout checks that prevent cross-context mistakes.",
+    "file": "2026-03-24-multi-agent-routing-bindings-openclaw.md"
+  },
+  {
     "slug": "event-hooks-safety-openclaw",
     "title": "OpenClaw Event Hooks: External Observability Without Slowing Agents",
     "date": "March 23, 2026",
