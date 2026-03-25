@@ -1,5 +1,12 @@
 [
   {
+    "slug": "gateway-discovery-health-probes-openclaw",
+    "title": "OpenClaw Gateway Discovery and Health Probes: Keep Agents Online Without Guesswork",
+    "date": "March 25, 2026",
+    "summary": "A practical workflow for discovering OpenClaw gateways, pinning stable URLs, and running layered health probes with clear failure mitigations.",
+    "file": "2026-03-25-gateway-discovery-health-probes-openclaw.md"
+  },
+  {
     "slug": "multi-agent-routing-bindings-openclaw",
     "title": "OpenClaw Multi-Agent Routing: Bindings That Keep Work and Personal Worlds Apart",
     "date": "March 24, 2026",
